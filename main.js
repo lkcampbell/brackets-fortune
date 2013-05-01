@@ -68,7 +68,7 @@ define(function (require, exports, module) {
         DocumentManager.getDocumentForPath(fortunePath + fortuneFileName)
             .done(function (document) {
                 documentText = document.getText();
-                fortuneText = _getRandomElement(documentText.split("%")).trim();
+                fortuneText = _getRandomElement(documentText.split("\n%\n"));
                 result.resolve(fortuneText);
             })
             .fail(function (fileError) {
