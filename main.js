@@ -72,7 +72,7 @@ define(function (require, exports, module) {
                 result.resolve(fortuneText);
             })
             .fail(function (fileError) {
-                result.reject("Error: " + fileError.name);
+                result.reject("Error: File '" + fortuneFileName + "' does not exist.");
             });
         
         return result.promise();
