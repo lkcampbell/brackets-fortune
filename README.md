@@ -12,10 +12,15 @@ needs it.
 ### How to Use Fortune
 Type `fortune` then press the **Tab** key.
 
+##### List of Current Options
+**_[file]:** Defines the fortune `[file]` used to generate the random
+fortune.  For example, if there is a fortune file called `zippy.txt` in the fortunes
+directory, typing the command `fortune_zippy` will display a random quote from the
+file.  Note that the `.txt` file extension is not included in the command.
+
 ### Roadmap
 * Make the installation restartless
 * Add word wrap option
-* Add the ability to specific different fortune files besides `default.txt`.
 
 ### License
 MIT-licensed -- see `main.js` for details.

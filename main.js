@@ -77,19 +77,31 @@ define(function (require, exports, module) {
         
         return result.promise();
     }
-    
+
     // --- Event handlers ---
     function _handleKeyEvent(jqEvent, editor, event) {
-        var command     = "",
-            finalText   = "",
-            start       = 0,
-            end         = 0,
-            i           = 0;
+        var command         = "",
+            commandArray    = [],
+            i               = 0,
+            option          = "",
+            finalText       = "",
+            start           = 0,
+            end             = 0;
+        
         
         if ((event.type === "keydown") && (event.keyCode === KeyEvent.DOM_VK_TAB)) {
             command = _getFortuneCommand(editor);
             if (command) {
-                _getFortuneText("default.txt")
+                commandArray = command.split("_");
+                
+                // Parse the command string
+                for (i = 1; i < commandArray.length; i++) {
+                    option = commandArray[i];
+                }
+                
+                option = option || "default";
+                
+                _getFortuneText(option + ".txt")
                     .done(function (fortuneText) {
                         // Get the fortune
                         finalText = fortuneText;
