@@ -19,6 +19,7 @@ directory, typing the command `fortune_zippy` will display a random quote from t
 file.  Note that the `.txt` file extension is not included in the command.
 
 ### Roadmap
+* Add _all option which picks a random fortune from a combination of all the files
 * Make the installation restartless
 * Add word wrap option
 
