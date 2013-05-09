@@ -30,4 +30,4 @@ file.  Note that the `.txt` file extension is not included in the command.
 MIT-licensed -- see `main.js` for details.
 
 ### Compatibility
-Brackets Sprint 23 or later.
+Tested on Brackets Sprint 23 and later, Windows 7.
