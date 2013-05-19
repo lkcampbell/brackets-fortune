@@ -6,6 +6,12 @@
     "homepage": "https://github.com/lkcampbell/brackets-fortune",
     "author": "Lance Campbell lkcampbell@gmail.com (https://github.com/lkcampbell)",
     "license": "MIT",
+    "categories":"general",
+    "keywords": [
+        "fortune",
+        "fun",
+        "games"
+    ],
     "files": [
         "main.js",
         "README.md",
