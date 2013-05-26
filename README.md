@@ -3,11 +3,10 @@ An extension for [Brackets](https://github.com/adobe/brackets/) to insert a
 random fortune into the editor.
 
 ### How to Install
-1. Select **Brackets > File > Install Extension...**
-2. Paste https://github.com/lkcampbell/brackets-fortune into Extension URL field.
-3. Click on the **Install** button.
-4. Reload or Restart Brackets -- normally not required but this extension
-needs it.
+1. Select **Brackets > File > Extension Manager...**
+2. Click on **Install from URL...**
+3. Paste https://github.com/lkcampbell/brackets-fortune into Extension URL field.
+4. Click on the **Install** button.
 
 ### How to Use Fortune
 Type `fortune` then press the **Tab** key.
@@ -23,7 +22,6 @@ file.  Note that the `.txt` file extension is not included in the command.
 * Add _files option that lists all of the available fortune files
 * Update 'file not found' message to reference _files option
 * Add _all option which picks a random fortune from a combination of all the files
-* Make the installation restartless
 * Add word wrap option
 
 ### License
