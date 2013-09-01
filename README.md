@@ -4,9 +4,8 @@ random fortune into the editor.
 
 ### How to Install
 1. Select **Brackets > File > Extension Manager...**
-2. Click on **Install from URL...**
-3. Paste https://github.com/lkcampbell/brackets-fortune into Extension URL field.
-4. Click on the **Install** button.
+2. Search for this extension.
+3. Click on the **Install** button.
 
 ### How to Use Fortune
 Type `fortune` then press the **Tab** key.
