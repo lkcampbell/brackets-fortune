@@ -1,10 +1,10 @@
 {
     "name": "brackets-fortune",
     "title": "Fortune",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Insert a random fortune into the Brackets editor.",
     "homepage": "https://github.com/lkcampbell/brackets-fortune",
-    "author": "Lance Campbell lkcampbell@gmail.com (https://github.com/lkcampbell)",
+    "author": "Lance Campbell (https://github.com/lkcampbell)",
     "license": "MIT",
     "categories":"general",
     "keywords": [

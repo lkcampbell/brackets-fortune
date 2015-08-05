@@ -26,6 +26,3 @@ file.  Note that the `.txt` file extension is not included in the command.
 
 ### License
 MIT-licensed -- see `main.js` for details.
-
-### Compatibility
-Tested on Brackets Sprint 23 and later, Windows 7.
